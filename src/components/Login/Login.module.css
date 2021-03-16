@@ -1,0 +1,85 @@
+.login {
+  display: flex;
+  width: 100%;
+  padding: 0 20px;
+  background: #e9e9e9;
+  min-height: 100vh;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  border-radius: 3px;
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
+.loginContainer_label {
+  color: white;
+  margin: 14px 0;
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.loginContainer_input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.btnContainer_text {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #fff;
+}
+
+.text_accent {
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.text_accent:hover {
+  color: red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 16px;
+}
+.login_button {
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  background: #15133b;
+  cursor: pointer;
+}
